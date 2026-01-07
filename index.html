@@ -66,37 +66,38 @@
                 <label>文字を塗りつぶす: <input type="checkbox" id="input-filled" checked /></label>
             </div>
 
-            <div class="input-holder"><label>separate characters: <input type="checkbox" id="input-separate" /></label>
+            <div class="input-holder">
+                <label>文字を区切る: <input type="checkbox" id="input-separate" /></label>
             </div>
 
             <div class="input-holder">
-                <label>bezier accuracy <span
+                <label>フォントの滑らかさ <span
                         title="0.5 = accurate to half a pixel &#013;.001 = accurate to 1/1000th of a pixel &#013;smaller numbers take longer to compute &#013;leave blank for auto">&#128712;</span>
                     : <input type="text" id="input-bezier-accuracy" placeholder="auto" class="input" /></label>
             </div>
 
             <div class="input-holder">
-                <label>Dxf Units: <select id="dxf-units" class="input"></select></label>
+                <label>DXFの単位: <select id="dxf-units" class="input"></select></label>
             </div>
 
             <div class="input-holder">
-                <label>Fill: <input type="text" id="input-fill" value="#000" class="input-fill input" data-coloris /></label>
+                <label>塗りつぶしの色: <input type="text" id="input-fill" value="#000" class="input-fill input" data-coloris /></label>
             </div>
 
             <div class="input-holder">
-                <label>Stroke: <input type="text" id="input-stroke" value="#000" class="input-stroke input" data-coloris /></label>
+                <label>枠線の色: <input type="text" id="input-stroke" value="#000" class="input-stroke input" data-coloris /></label>
             </div>
 
             <div class="input-holder">
-                <label>Stroke Width: <input type="text" id="input-stroke-width" value="0.25mm" class="input-stroke-width input"/></label>
+                <label>枠線の太さ: <input type="text" id="input-stroke-width" value="0.25mm" class="input-stroke-width input"/></label>
             </div>
 
             <div class="input-holder">
-                <label>Non-scaling stroke: <input type="checkbox" id="input-stroke-non-scaling" checked class="input-stroke-non-scaling input"/></label>
+                <label>非スケーリングストローク: <input type="checkbox" id="input-stroke-non-scaling" checked class="input-stroke-non-scaling input"/></label>
             </div>
 
             <div class="input-holder">
-                <label>Fill rule: 
+                <label>塗りつぶしの法則: 
                     <select id="input-fill-rule" class="input">
                         <option value="evenodd">evenodd</option>
                         <option value="nonzero">nonzero</option>
